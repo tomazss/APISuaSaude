@@ -1,0 +1,25 @@
+{
+  "name": "apisaude",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "apisaude": "file:",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-jwt": "^8.4.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "openai": "^4.73.0",
+    "path": "^0.12.7",
+    "tesseract.js": "^5.1.1"
+  }
+}
